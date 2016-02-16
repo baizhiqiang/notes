@@ -19,8 +19,8 @@ About git log
    git log --committer="John\|Mary"
 ```
 <br/>
-####查找最近的三个commit<br/>
+####根据内容查找commit<br/>
 ```
-   git log -3
+   git log -S"Hello, World!"
 ```
 <br/>
