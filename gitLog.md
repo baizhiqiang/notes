@@ -1,4 +1,4 @@
-About git log
+About git log 关于查看commit
 -------
 参考网址：https://www.atlassian.com/git/tutorials/git-log/
 <br/>
@@ -22,5 +22,10 @@ About git log
 ####根据内容查找commit<br/>
 ```
    git log -S"Hello, World!"
+```
+<br/>
+####根据文件查找commit<br/>
+```
+   git log -- foo.py bar.py
 ```
 <br/>
