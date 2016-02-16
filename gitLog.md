@@ -6,7 +6,8 @@ About git log
 ####发现最近的三个commit<br/>
 ```
    git log -3
-```<br/>
+```
+<br/>
 ####某时间段内的commit<br/>
 ```
    git log --after="2014-7-1" --before="2014-7-4"
