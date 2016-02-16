@@ -1,0 +1,33 @@
+About git remote
+-------
+参考网址：http://www.ruanyifeng.com/blog/2014/06/git_remote.html
+<br/>
+<br/>
+####使用-v选项，可以参看远程主机的网址。<br/>
+```
+   $ git remote -v
+         origin  git@github.com:jquery/jquery.git (fetch)
+         origin  git@github.com:jquery/jquery.git (push)
+```
+<br/>
+####某时间段内的commit<br/>
+```
+   git log --after="2014-7-1" --before="2014-7-4"
+```
+<br/>
+####查找某人的commit<br/>
+```
+   git log --author="John"
+   git log --committer="John\|Mary"
+```
+<br/>
+####根据内容查找commit<br/>
+```
+   git log -S"Hello, World!"
+```
+<br/>
+####根据文件查找commit<br/>
+```
+   git log -- foo.py bar.py
+```
+<br/>

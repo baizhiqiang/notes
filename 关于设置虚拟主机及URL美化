@@ -1,0 +1,8 @@
+具体如何设置虚拟主机，可参照http://blog.sina.com.cn/s/blog_66ac09390101gavn.html
+
+注意：要在web目录下添加.htaccess文件，将访问重定位到index.php，否则会出现当我们使用
+www.xxx.com/site/login样式的URL访问时无法识别的问题，如果加上www.xxx.com/index.php/site/login访问
+就可以的话就是因为没有添加.htaccess文件造成。 
+
+
+参考：http://gblz.net/2015/242.html
