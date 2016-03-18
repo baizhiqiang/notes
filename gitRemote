@@ -1,8 +1,8 @@
 About git remote
 -------
 参考网址：http://www.ruanyifeng.com/blog/2014/06/git_remote.html
-<br>
-<br>
+  
+  
 ####使用-v选项，可以参看远程主机的网址。<br/>
 ```
    $ git remote -v
